@@ -26,12 +26,4 @@ setup(
         ],
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    install_requires=[
-            "pandas>=0.24.2, <1",
-            "pyarrow>=0.13.0",
-            "boto3>=1.9",
-            "s3fs>=0.2",
-            "psycopg2==2.8.3",
-            "SQLAlchemy>=1.3"
-    ]
 )
